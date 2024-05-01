@@ -32,6 +32,4 @@ struct UserVIew: View {
     }
 }
 
-#Preview {
-    UserVIew(user: .example)
-}
+
