@@ -17,6 +17,7 @@
 		9F017C662BE11CD1003CA7DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F017C652BE11CD1003CA7DE /* User.swift */; };
 		9F017C682BE11D2B003CA7DE /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F017C672BE11D2B003CA7DE /* UserGroup.swift */; };
 		9F017C6A2BE13817003CA7DE /* UserVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F017C692BE13817003CA7DE /* UserVIew.swift */; };
+		9F176AC82BE32A7100716AD3 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F176AC72BE32A7100716AD3 /* UserList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9F017C652BE11CD1003CA7DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9F017C672BE11D2B003CA7DE /* UserGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroup.swift; sourceTree = "<group>"; };
 		9F017C692BE13817003CA7DE /* UserVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVIew.swift; sourceTree = "<group>"; };
+		9F176AC72BE32A7100716AD3 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				9F017C642BE11CB3003CA7DE /* Model */,
 				9F017C392BE11CA8003CA7DE /* FriendListApp.swift */,
 				9F017C3B2BE11CA8003CA7DE /* ContentView.swift */,
+				9F176AC72BE32A7100716AD3 /* UserList.swift */,
 				9F017C692BE13817003CA7DE /* UserVIew.swift */,
 				9F017C3D2BE11CA9003CA7DE /* Assets.xcassets */,
 				9F017C3F2BE11CA9003CA7DE /* FriendList.entitlements */,
@@ -280,6 +283,7 @@
 				9F017C682BE11D2B003CA7DE /* UserGroup.swift in Sources */,
 				9F017C6A2BE13817003CA7DE /* UserVIew.swift in Sources */,
 				9F017C3C2BE11CA8003CA7DE /* ContentView.swift in Sources */,
+				9F176AC82BE32A7100716AD3 /* UserList.swift in Sources */,
 				9F017C3A2BE11CA8003CA7DE /* FriendListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
