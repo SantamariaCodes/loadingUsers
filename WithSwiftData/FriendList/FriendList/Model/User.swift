@@ -28,7 +28,21 @@ class User: Codable {
         var friends: [UserGroup]
         var registered: Date
     
-    
+    // Custom initializer for when adding users
+    init(id: UUID, isActive: Bool, name: String, age: Int, company: String, email: String, about: String, address: String, tags: [String], friends: [UserGroup], registered: Date) {
+          self.id = id
+          self.isActive = isActive
+          self.name = name
+          self.age = age
+          self.company = company
+          self.email = email
+          self.about = about
+          self.address = address
+          self.tags = tags
+          self.friends = friends
+          self.registered = registered
+      }
+
     
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)

@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
+    @State private var showingAddExpense = false
+
     @State private var sortOder = [
         SortDescriptor(\User.name),
         SortDescriptor(\User.email)
@@ -19,6 +20,11 @@ struct ContentView: View {
         NavigationStack {
             UserList(sortOder: sortOder)
                 .toolbar {
+                    Button("Add Expense", systemImage: "plus") {
+                        showingAddExpense = true
+                    }
+
+                    
                     Menu("Sort", systemImage: "arrow.up.arrow.down") {
                         Picker("Sort by", selection: $sortOder) {
                             Text("Name (A-Z)")
@@ -35,8 +41,14 @@ struct ContentView: View {
                         }
                     }
                 }
-            
+                .sheet(isPresented: $showingAddExpense) {
+                    AddUser()
+                }
         }
     }
     
+}
+
+#Preview {
+    ContentView()
 }
